@@ -1,0 +1,21 @@
+	component matrixsys is
+		port (
+			clk_clk         : in  std_logic                     := 'X';             -- clk
+			reset_reset_n   : in  std_logic                     := 'X';             -- reset_n
+			ram1_address    : in  std_logic_vector(10 downto 0) := (others => 'X'); -- address
+			ram1_clken      : in  std_logic                     := 'X';             -- clken
+			ram1_chipselect : in  std_logic                     := 'X';             -- chipselect
+			ram1_write      : in  std_logic                     := 'X';             -- write
+			ram1_readdata   : out std_logic_vector(31 downto 0);                    -- readdata
+			ram1_writedata  : in  std_logic_vector(31 downto 0) := (others => 'X'); -- writedata
+			ram1_byteenable : in  std_logic_vector(3 downto 0)  := (others => 'X'); -- byteenable
+			ram2_address    : in  std_logic_vector(10 downto 0) := (others => 'X'); -- address
+			ram2_chipselect : in  std_logic                     := 'X';             -- chipselect
+			ram2_clken      : in  std_logic                     := 'X';             -- clken
+			ram2_write      : in  std_logic                     := 'X';             -- write
+			ram2_readdata   : out std_logic_vector(31 downto 0);                    -- readdata
+			ram2_writedata  : in  std_logic_vector(31 downto 0) := (others => 'X'); -- writedata
+			ram2_byteenable : in  std_logic_vector(3 downto 0)  := (others => 'X')  -- byteenable
+		);
+	end component matrixsys;
+

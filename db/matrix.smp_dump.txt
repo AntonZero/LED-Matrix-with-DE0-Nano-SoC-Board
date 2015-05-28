@@ -1,0 +1,9 @@
+
+State Machine - |matrix|matrixst
+Name matrixst.st5 matrixst.st4 matrixst.st3 matrixst.st2 matrixst.st1 matrixst.st0 
+matrixst.st0 0 0 0 0 0 0 
+matrixst.st1 0 0 0 0 1 1 
+matrixst.st2 0 0 0 1 0 1 
+matrixst.st3 0 0 1 0 0 1 
+matrixst.st4 0 1 0 0 0 1 
+matrixst.st5 1 0 0 0 0 1 
